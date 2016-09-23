@@ -1,0 +1,16 @@
+.timeline {
+  width: 100%;
+  height: 70px;
+  background-color: dodgerblue;
+}
+
+.svg-timeline {
+  width: 100%;
+  height: 100%;
+}
+
+.scrubber-bar {
+  width: 5px;
+  height: 100%;
+  fill: #0F05FF;
+}

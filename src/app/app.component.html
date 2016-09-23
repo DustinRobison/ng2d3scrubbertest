@@ -1,3 +1,8 @@
-<h1>
-  {{title}}
-</h1>
+<div id="navbar">Navbar</div>
+<div id="map">MAP</div>
+<div id="timeline">
+  <vs-timeline></vs-timeline>
+</div>
+<div id="data-view" *ngFor="let tail of tails">
+    <vs-terminal-data [tailId]="tail"></vs-terminal-data>
+</div>

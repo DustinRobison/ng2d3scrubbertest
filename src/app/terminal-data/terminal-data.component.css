@@ -1,0 +1,11 @@
+.tail-header {
+  width: 100%;
+  height: 60px;
+  background-color: #31b1ff;
+}
+
+.scrubber-bar {
+  width: 5px;
+  height: 100%;
+  fill: #0F05FF;
+}

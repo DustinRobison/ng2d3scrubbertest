@@ -4,10 +4,16 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { TimelineComponent } from './timeline/timeline.component';
+import { TerminalDataComponent } from './terminal-data/terminal-data.component';
+import { ChartComponent } from './chart/chart.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TimelineComponent,
+    TerminalDataComponent,
+    ChartComponent
   ],
   imports: [
     BrowserModule,
